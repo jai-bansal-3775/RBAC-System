@@ -1,0 +1,98 @@
+.user-management {
+    padding: 1.5rem;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 1rem auto;
+    max-width: 800px;
+  }
+  
+  .user-management h2 {
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+    color: #333;
+  }
+  
+  .user-management form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+  }
+  
+  .user-management form input,
+  .user-management form select,
+  .user-management form button {
+    flex: 1;
+    padding: 0.8rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .user-management form button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .user-management form button:hover {
+    background-color: #0056b3;
+  }
+  
+  .user-management table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+  }
+  
+  .user-management table th,
+  .user-management table td {
+    text-align: left;
+    padding: 0.8rem;
+    border: 1px solid #ddd;
+  }
+  
+  .user-management table th {
+    background-color: #f1f1f1;
+    font-weight: bold;
+  }
+  
+  .user-management table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .user-management table tr:hover {
+    background-color: #f1f7ff;
+  }
+  
+  .user-management table button {
+    padding: 0.5rem 1rem;
+    font-size: 0.9rem;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: opacity 0.2s;
+  }
+  
+  .user-management table button:nth-child(1) {
+    background-color: #ffc107; /* Edit button: Yellow */
+  }
+  
+  .user-management table button:nth-child(1):hover {
+    background-color: #e0a800;
+  }
+  
+  .user-management table button:nth-child(2) {
+    background-color: #dc3545; /* Delete button: Red */
+  }
+  
+  .user-management table button:nth-child(2):hover {
+    background-color: #c82333;
+  }
+  
